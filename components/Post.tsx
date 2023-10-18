@@ -11,7 +11,6 @@ import SanityImage from "./SanityImage";
 const builder = imageUrlBuilder(client);
 
 export default function Post({ post }: { post: SanityDocument }) {
-    console.log(post.body);
     const myPortableTextComponents = {
         types: {
             image: ({ value }: any) => {
