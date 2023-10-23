@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
                 <div className="grid grid-cols-1 gap-4 mb-2">
                     <div className="">
-                        <h1 className="font-medium mb-2">Contact Us</h1>
+                        <h1 className="font-semibold mb-2">Contact Us</h1>
                         <div className="flex flex-col md:flex-row gap-4 text-sm">
                             <Link
                                 target="_blank"
@@ -47,7 +47,7 @@ const Footer = () => {
                                     height={20}
                                     className="hover:text-secondary transition-all duration-300"
                                 />
-                                <p>vaibhav@flookup.com</p>
+                                <p className="font-medium">vaibhav@flookup.com</p>
                             </Link>
                             <Link
                                 target="_blank"
@@ -59,7 +59,7 @@ const Footer = () => {
                                     height={20}
                                     className="hover:text-secondary transition-all duration-300"
                                 />
-                                <p>ankit@flookup.com</p>
+                                <p className="font-medium">ankit@flookup.com</p>
                             </Link>
                             <Link
                                 target="_blank"
@@ -73,7 +73,7 @@ const Footer = () => {
                                     height={20}
                                     className="hover:text-secondary transition-all duration-300"
                                 />
-                                <p>+91 7059010203</p>
+                                <p className="font-medium">+91 7059010203</p>
                             </Link>
                         </div>
                     </div>
