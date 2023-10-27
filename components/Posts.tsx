@@ -17,9 +17,6 @@ export default function Posts({ posts = [] }: { posts: SanityDocument[] }) {
                     <p className="text-2xl lg:max-w-2xl mt-4">
                         Your Trusted Partner for Valuation Outsourcing
                     </p>
-                    {/* <button className="w-fit transition-all duration-300 bg-[#1f4b97] px-6 py-2 hover:bg-[#1f4b9770] rounded-lg font-medium">
-                        Start reading
-                    </button> */}
                 </section>
             </section>
             <section className="bg-white py-16 lg:py-32 p-4 md:px-16 lg:max-w-7xl lg:mx-auto font-bold w-full h-full">
