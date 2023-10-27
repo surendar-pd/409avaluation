@@ -21,7 +21,7 @@ const Navbar = () => {
         >
             <div className="w-full h-[5rem] flex justify-between items-center p-4 md:px-16 lg:max-w-7xl lg:mx-auto">
                 <div>
-                    <Image src={"/assets/logo.png"} unoptimized alt="logo" width={100} height={100} className="w-60" />
+                    <Image src={"/assets/Logo.png"} unoptimized alt="logo" width={100} height={100} className="w-60" />
                 </div>
                 <div></div>
             </div>
